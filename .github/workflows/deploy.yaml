@@ -40,7 +40,7 @@ jobs:
         if: always()
         uses: vercel/repository-dispatch/actions/status@v1
         with:
-          name: Vercel - svelte-testing: Lint + Format + Test
+          name: "Vercel - svelte-testing: Lint + Format + Test"
 
   deploy:
     name: Deploy to Vercel
