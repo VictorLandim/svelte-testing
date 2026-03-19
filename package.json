@@ -13,7 +13,7 @@
         "test:e2e": "playwright test",
         "test": "npm run test:unit -- --run && npm run test:e2e",
         "test:unit": "vitest",
-        "lint": "eslint && eslint .",
+        "lint": "eslint .",
         "format": "prettier --write ."
     },
     "devDependencies": {
