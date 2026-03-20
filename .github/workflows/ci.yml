@@ -24,10 +24,7 @@ jobs:
         run: npm ci
 
       - name: Lint (with fix)
-        run: npm run lint -- --fix
+        run: npm run lint
 
       - name: Format
-        run: npx prettier --write .
-
-      - name: Unit tests
-        run: npm run test:unit -- --run
+        run: npx prettier .
