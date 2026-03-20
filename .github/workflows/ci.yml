@@ -24,7 +24,7 @@ jobs:
         run: npm ci
 
       - name: Lint (with fix)
-        run: npm run lint -- --fix
+        run: npm run lint
 
       - name: Format
-        run: npx prettier --write .
+        run: npx prettier .
