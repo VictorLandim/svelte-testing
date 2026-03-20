@@ -2,6 +2,12 @@
     import favicon from "$lib/assets/favicon.svg"
 
     var { children } = $props()
+
+
+
+
+
+    
 </script>
 
 <svelte:head>
